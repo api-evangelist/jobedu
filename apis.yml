@@ -1,7 +1,23 @@
 aid: jobedu
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jobedu.png
 name: Jobedu
-description: Jobedu is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Jobedu is a Jordanian pop-culture creative retail and merchandise brand known for Arabic-language
+  streetwear, apparel, prints, and consumer goods, operating a direct-to-consumer e-commerce storefront hosted
+  on Shopify. It was surfaced as a 500 Global portfolio company and added to the API Evangelist network for
+  enrichment. As of the July 2026 enrichment pass the jobedu.com storefront returns HTTP 404 (Shopify-hosted,
+  DNS points to shops.myshopify.com) and no public API, developer portal, documentation, or /.well-known
+  surface could be found, so no API artifacts were produced beyond a live domain-security probe.
 url: https://raw.githubusercontent.com/api-evangelist/jobedu/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Retail
+- E-Commerce
+- Shopify
+- Consumer
+- Merchandise
+- Jordan
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +43,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/jobedu-domain-security.yml
 - type: Website
   url: https://jobedu.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
