@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/jobedu/integrations
+- https://n8n.io/integrations/jobedu/
+- https://composio.dev/toolkits/jobedu
+- https://monid.ai/tools/jobedu
+checked:
+- https://composio.dev/toolkits/jobedu
+- https://monid.ai/tools/jobedu
+- https://n8n.io/integrations/jobedu/
+- https://zapier.com/apps/jobedu/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
